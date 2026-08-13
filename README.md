@@ -174,4 +174,3 @@ Standard MGF. Each spectrum is a `BEGIN IONS` … `END IONS` block; peak lines a
 `m/z intensity` pairs. Metadata lines such as `PEPMASS=` and `TITLE=` are read;
 other headers are ignored for scoring. Peaks are sorted by m/z internally.
 
----
