@@ -175,22 +175,3 @@ Standard MGF. Each spectrum is a `BEGIN IONS` … `END IONS` block; peak lines a
 other headers are ignored for scoring. Peaks are sorted by m/z internally.
 
 ---
-
-## Reproducing the paper's numbers
-
-The two result CSVs in this repository (`results_recall_ALL_GNPS.csv`,
-`results_recall_centers_combined.csv`) contain the per-configuration recall and
-speedup values reported in the paper. Each row is one `(library, M, efC, efS)`
-setting over 100 queries. Re-running `experiments_cli.py` with the same
-`--seed`, `--num_queries`, and parameters reproduces them (up to hardware-dependent
-timing).
-
----
-
-## License
-
-*(add your license here, e.g. MIT)*
-
-## Citation
-
-*(add BibTeX / paper reference here)*
