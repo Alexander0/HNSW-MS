@@ -156,7 +156,7 @@ queries, compute recall, parse timings, or record results.
 - samples (or loads) the query set and handles MGF I/O and reproducibility (seed),
 - calls the `ms_hnsw` binary for build, query, and baseline,
 - parses the binary's stdout (neighbor IDs) and stderr (internal search timings),
-- computes the accuracy metrics (recall@K, precision@K, Hit@1, AP@K, NDCG@K) by
+- computes the accuracy metrics (such as recall@K) by
   comparing HNSW results against the exact baseline,
 - computes the speedup from the internal (search-only) timings, and
 - writes everything as a row to a results CSV.
